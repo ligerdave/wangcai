@@ -1,0 +1,28 @@
+{
+  "name": "wangcai",
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib/index",
+  "version": "0.0.1",
+  "author": "David C. Fu <david.c.fu@gmail.com>",
+  "engines": [
+    "node"
+  ],
+  "description": "A node.js agent that reports node related metrics",
+  "keywords": [
+    "npm",
+    "agent",
+    "node agent",
+    "metrics"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "gc-stats": "^1.0.0",
+    "measured": "^1.0.2"
+  },
+  "devDependencies": {}
+}
